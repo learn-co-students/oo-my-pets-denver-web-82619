@@ -13,8 +13,8 @@ class Owner
 
   def initialize name
     @name = name
-    new = self
-    human_species
+    @species = "human"
+    # human_species
     self.class.all << self
   end
 
